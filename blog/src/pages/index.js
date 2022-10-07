@@ -9,6 +9,12 @@ import * as styles from "../components/index.module.css"
 const IndexPage = ({ data }) => (
   <Layout>
     <Seo title="Home" />
+    <h1>Start Your Day With God's Purpose in Mind</h1>
+    <h3>
+      Now then we are ambassadors for Christ, as though God did beseech you by
+      us:
+    </h3>
+    <Link to="/page-2/">Go to page 2</Link>
     <ul className={styles.list}>
       {data.allContentfulBlogPost.edges.map(edge => (
         <li key={edge.node.id}>
