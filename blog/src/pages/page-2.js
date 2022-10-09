@@ -9,7 +9,6 @@ const SecondPage = () => (
     <h1>The Lord is interested in your heart.</h1>
     <p>Welcome to page 2</p>
 
-    
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
