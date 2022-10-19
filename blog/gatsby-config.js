@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Daily Bible Devotions (DBD)`,
+    title: `Give Thanks to God (DBD)`,
     description: `ITDEV-164 Gatsby Blog.`,
     author: `Trevor Knowles`,
     contact: {
